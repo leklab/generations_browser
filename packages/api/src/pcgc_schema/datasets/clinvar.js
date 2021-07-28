@@ -57,7 +57,7 @@ export const fetchClinvarVariantsInGene = async (geneId, ctx) => {
   const results = await fetchAllSearchResults(
     ctx.database.elastic,
     {
-      index: 'clinvar_grch37',
+      index: 'clinvar_grch38',
       type: 'variant',
       body: {
         query: {
@@ -117,7 +117,7 @@ export const fetchClinvarVariantsInTranscript = async (transcriptId, ctx) => {
   const results = await fetchAllSearchResults(
     ctx.database.elastic,
     {
-      index: 'clinvar_grch37',
+      index: 'clinvar_grch38',
       type: 'variant',
       body: {
         query: {

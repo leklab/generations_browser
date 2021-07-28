@@ -6,7 +6,8 @@ import styled from 'styled-components'
 
 import { QuestionMark } from '@broad/help'
 import { RegionViewer } from '@broad/region-viewer'
-import { ConnectedTranscriptsTrack } from '@broad/track-transcript'
+//import { ConnectedTranscriptsTrack } from '@broad/track-transcript'
+import { ConnectedTranscriptsTrack } from './track-transcript/ConnectedTranscriptsTrack'
 import { screenSize } from '@broad/ui'
 
 import DocumentTitle from '../DocumentTitle'

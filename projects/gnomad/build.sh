@@ -13,7 +13,8 @@ rm -rf dist
 #export GA_TRACKING_ID="UA-149585832-1"
 #export GNOMAD_API_URL=${GNOMAD_API_URL:-"http://34.67.114.177:8007"}
 #export GNOMAD_API_URL=${GNOMAD_API_URL:-"http://chdgenes.org/api"}
-export GNOMAD_API_URL=${GNOMAD_API_URL:-"https://genomes.sfari.org/endpoint"}
+#export GNOMAD_API_URL=${GNOMAD_API_URL:-"https://genomes.sfari.org/endpoint"}
+export GNOMAD_API_URL=${GNOMAD_API_URL:-"http://10.8.9.3/api"}
 
 export NODE_ENV=${NODE_ENV:-"production"}
 #export GNOMAD_API_URL=${GNOMAD_API_URL:-"/api"}
